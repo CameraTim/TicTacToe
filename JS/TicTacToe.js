@@ -111,7 +111,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
         c.moveTo(x1, y1)
         c.lineTo(x, y)
         c.lineWidth = 10;
-        c.strokeStyle = 'rgba(71, 77, 19, 0.75)';
+        c.strokeStyle = 'rgba(68, 118, 255, 0.75)';
         c.stroke();
         //condition to check if the line has been fully drawn by checking the end x and y points
         if (x1 <= x2 && y1 <= y2) {
